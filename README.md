@@ -1,10 +1,10 @@
-# ⚡ Unity Bolt Samples
+﻿# ⚡ Unity Bolt Samples
 
-A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code. **All samples can be found in this repo's [Releases section](https://github.com/avashly/Unity-BoltKit-Samples/releases).**
+A collection of Unity packages featuring Bolt Visual Scripting samples. Each sample demonstrates how to work with Unity editor features, game logic, &amp; more without having to write a single line of code. **All samples can be found in this repo's [Releases section](https://github.com/codemaker2015/Unity-Bolt-Samples).**
 
 
 [Setup](#setup) | [Samples](#samples)
------------- | ------------- | -------------
+------------ | ------------- |
 
 **NOTE:** 
 - If you grab the project files directly instead of the .unitypackage, you may need to restart the editor after opening the project.
