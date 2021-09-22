@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: DialougeController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Dialouge
+      Controller","summary":"Activates & handles Player dialouge with Guard.","pan":{"x":135.5307,"y":117.6041},"zoom":0.7244681,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-549.0,"y":50.0},"guid":"e0888efd-df91-4782-ac70-1e71f4703091","$version":"A","$type":"Bolt.OnCollisionStay","$id":"9"},{"chainable":false,"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-260.0,"y":50.0},"guid":"2f486676-7ff5-418c-8e70-bac31f42495f","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"defaultValues":{},"position":{"x":-78.0,"y":50.0},"guid":"0413a1e7-67e0-40a7-aead-0a3128276353","$version":"A","$type":"Bolt.Branch","$id":"14"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"db30729b-2577-4e4d-bc67-7b687352a2ba","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"3cd5f6d0-11e7-42b9-bf11-b52179e37455","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"bf44f8ea-0a31-4529-9833-301c226f9524","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"result","destinationUnit":{"$ref":"14"},"destinationKey":"condition","guid":"5d17c46b-15b5-4ca2-b0d9-b22d27fd4ba7","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
